@@ -1,1 +1,1 @@
-# MSA-score
+# Protein Sequence Alignment Scoring using Deep Learning
