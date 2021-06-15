@@ -18,7 +18,7 @@ target_path2="./$target_dir/$pdb_id.feats.npy"
 echo $target_path1
 echo $target_path2
 
-source /home/bikash/venv_v3.6/bin/activate
+source venv/bin/activate
 
 if [[ -f $target_path1 ]]
 then
