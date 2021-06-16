@@ -18,7 +18,8 @@ target_path2="./$target_dir/$pdb_id.feats.npy"
 echo $target_path1
 echo $target_path2
 
-source venv/bin/activate
+eval "$(conda shell.bash hook)"
+conda activate venv_tfv14
 
 if [[ -f $target_path1 ]]
 then
@@ -27,6 +28,10 @@ else
     python3 ./generate_trRosetta_prediction.py -s $1 -t1 $target_path1 -t2 $target_path2
 fi
 
-deactivate
+conda deactivate
+
+conda activate venv_tfv23
 
 python3 ./predict_lddt_score.py -f1 $target_path1 -f2 $target_path2
+
+conda deactivate
