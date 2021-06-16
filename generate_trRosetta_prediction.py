@@ -27,6 +27,6 @@ target_path2 = args.target_file2
 
 if os.path.exists(src_path) and (not os.path.exists(target_path1)):
     print(src_path)
-    os.system("python " + network_file_path + " -m " + model_path + " " + src_path + " " + target_path1 + " " + target_path2)
+    os.system("python3 " + network_file_path + " -m " + model_path + " " + src_path + " " + target_path1 + " " + target_path2)
 else:
     print("Src file not found or target file already present")
