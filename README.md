@@ -27,7 +27,10 @@ conda env create -f score-env1.yml
 
 conda env create -f score-env2.yml
 ```
-Instructions to install conda can be found here: https://varhowto.com/install-miniconda-ubuntu-20-04/
+`Instructions to install conda can be found here: https://varhowto.com/install-miniconda-ubuntu-20-04/ 
+OR,
+Official site: https://docs.conda.io/en/latest/miniconda.html
+`
 
 ## How to Run
 ```
