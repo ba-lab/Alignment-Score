@@ -5,9 +5,11 @@ In this work, our interest is in predicting the utility of Sequence Alignments (
 
 
 ## Installation
-1. Clone the repository
+1. Download the repository
 ```
 git clone https://github.com/ba-lab/Alignment-Score.git
+OR
+Download the zip file: https://github.com/ba-lab/Alignment-Score/archive/refs/heads/main.zip
 
 cd Alignment-Score
 ```
