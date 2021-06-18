@@ -9,8 +9,6 @@ from tensorflow.python.keras.models import Model
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.applications.mobilenet import MobileNet
 from tensorflow.keras.models import Sequential
-import matplotlib.pyplot as plt
-from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 # Allow GPU memory growth
