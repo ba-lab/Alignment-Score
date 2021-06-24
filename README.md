@@ -16,16 +16,16 @@ cd Alignment-Score
 
 2. Download additional model file
 ```
-wget http://deep.cs.umsl.edu/sa-scoring/model2019_07.tar.xz
+wget http://deep.cs.umsl.edu/sa-scoring/trRosetta_model2019_07.tar.xz
 
-tar -xf model2019_07.tar.xz
+tar -xf trRosetta_model2019_07.tar.xz
 ```
 
 3. Install virtual environments using conda
 ```
-conda env create -f score-env1.yml
+conda env create -f trRos-env.yml
 
-conda env create -f score-env2.yml
+conda env create -f msascore-env.yml
 ```
 > Instructions to install conda can be found here: https://varhowto.com/install-miniconda-ubuntu-20-04/
 OR,
