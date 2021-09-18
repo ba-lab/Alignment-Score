@@ -1,3 +1,8 @@
+'''
+Author: Bikash Shrestha and Dr. Badri Adhikari
+University of Missouri-St. Louis, 07-23-2021
+'''
+
 import numpy as np
 import os
 import argparse
