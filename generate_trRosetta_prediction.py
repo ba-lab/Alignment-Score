@@ -1,3 +1,8 @@
+'''
+Author: Bikash Shrestha, University of Missouri-St. Louis, 07-23-2021
+Description: This script runs the trRosetta tool to create .npz and .npy file
+'''
+
 import os
 import sys
 import argparse
