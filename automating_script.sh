@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author: Bikash Shrestha, University of Missouri-St. Louis, 07-23-2021
+# Description: This script runs the pipeline. It requires an MSA file and ID of the target
+
 if [ $# -eq 0 ]
 then
     echo "Input MSA was not provided"
