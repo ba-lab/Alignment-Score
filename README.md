@@ -16,7 +16,7 @@ cd Alignment-Score
 
 2. Download additional model file
 ```
-wget http://deep.cs.umsl.edu/sa-scoring/trRosetta_model2019_07.tar.xz
+wget http://deep.cs.umsl.edu/sa-scoring/deep-msa-score/trRosetta_model2019_07.tar.xz
 
 tar -xf trRosetta_model2019_07.tar.xz
 ```
