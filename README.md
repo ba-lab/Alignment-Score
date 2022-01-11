@@ -3,6 +3,9 @@
 ## Project Description
 In this work, our interest is in predicting the utility of Sequence Alignments (SAs) towards protein structure prediction, i.e. how informative they are for the methods that use them to drive structure prediction. Although it is well understood that the ultimate accuracy of structure prediction depends on many factors other than the input SA, in general, a SA is the first seed that guides the structure prediction process. In this work, we develop a deep learning based method to rank multiple sequence alignments based on their quality, i.e., their usefulness for building a 3D models. Given a protein sequence and a set of alignments (SAs) generated for it using multiple methods, our method Deep-MSA-Score, predicts local distance difference test (lDDT) scores of the distance maps that can be predicted from the SAs. These lDDT scores serve as the alignment quality scores. Irrespective of the method that is used to generate a SA we predict a score it. Subsequently, the SAs can be ranked by these score for selection.
 
+## Webserver
+
+[http://deep.cs.umsl.edu/sa-scoring/](http://deep.cs.umsl.edu/sa-scoring/)
 
 ## Installation
 1. Download the repository
