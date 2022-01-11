@@ -7,6 +7,10 @@ In this work, our interest is in predicting the utility of Sequence Alignments (
 
 [http://deep.cs.umsl.edu/sa-scoring/](http://deep.cs.umsl.edu/sa-scoring/)
 
+## Data
+
+[http://deep.cs.umsl.edu/sa-scoring/download](http://deep.cs.umsl.edu/sa-scoring/download)
+
 ## Installation
 1. Download the repository
 ```
