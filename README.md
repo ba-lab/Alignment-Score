@@ -1,7 +1,10 @@
 # Protein Sequence Alignment Scoring using Deep Learning
 
 ## Project Description
-In this work, our interest is in predicting the utility of Sequence Alignments (SAs) towards protein structure prediction, i.e. how informative they are for the methods that use them to drive structure prediction. Although it is well understood that the ultimate accuracy of structure prediction depends on many factors other than the input SA, in general, a SA is the first seed that guides the structure prediction process. In this work, we develop a deep learning based method to rank multiple sequence alignments based on their quality, i.e., their usefulness for building a 3D models. Given a protein sequence and a set of alignments (SAs) generated for it using multiple methods, our method Deep-MSA-Score, predicts local distance difference test (lDDT) scores of the distance maps that can be predicted from the SAs. These lDDT scores serve as the alignment quality scores. Irrespective of the method that is used to generate a SA we predict a score it. Subsequently, the SAs can be ranked by these score for selection.
+
+**Background** A high-quality sequence alignment (SA) is the most important input feature for accurate protein structure prediction. For a protein sequence, there are many methods to generate a SA. However, when given a choice of more than one SA for a protein sequence, there are no methods to predict which SA may lead to more accurate models without actually building the models. In this work, we describe a method to predict the quality of a protein's SA.
+**Methods** We created our own dataset by generating a variety of SAs for a set of 1,351 representative proteins and investigated various deep learning architectures to predict the local distance difference test (lDDT) scores of distance maps predicted with SAs as the input. These lDDT scores serve as indicators of the quality of the SAs. 
+**Results** Using two independent test datasets consisting of CASP13 and CASP14 targets, we show that our method is effective for scoring and ranking SAs when a pool of SAs is available for a protein sequence. With an example, we further discuss that SA selection using our method can lead to improved structure prediction.
 
 ## Webserver
 
