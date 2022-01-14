@@ -11,7 +11,7 @@ In this work, our interest is in predicting the utility of Sequence Alignments (
 
 [http://deep.cs.umsl.edu/sascoring/download](http://deep.cs.umsl.edu/sascoring/download)
 
-## Installation
+## Local installation
 1. Download the repository
 ```
 git clone https://github.com/ba-lab/Alignment-Score.git
