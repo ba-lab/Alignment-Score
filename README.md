@@ -50,3 +50,6 @@ chmod +x automating_script.sh
 Eg command:
 ./automating_script.sh test_msa/T1024_DeepMSA2.a3m T1024
 ```
+
+## Cite
+Bioinformatics, 2022, [Scoring protein sequence alignments using deep learning](https://academic.oup.com/bioinformatics/article/38/11/2988/6564224)
